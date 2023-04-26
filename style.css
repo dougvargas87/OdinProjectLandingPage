@@ -97,6 +97,7 @@ ul {
 .boxes .container {
     display: flex;
     justify-content: space-between;
+    text-align: center;
 }
 
 .box {
@@ -110,6 +111,12 @@ ul {
 
 .box i {
     margin-right: 10px;
+}
+
+.box img {
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
 }
 
 .quote .container {
