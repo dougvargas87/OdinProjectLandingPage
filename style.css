@@ -112,7 +112,50 @@ ul {
     margin-right: 10px;
 }
 
+.quote .container {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    text-align: justify;
+}
+
+.quote span {
+    text-align: right;
+    font-style: italic;
+    padding: 10px;
+}
+
+.cta {
+    background-color:rgb(118, 0, 0);
+    padding: 50px;
+}
+
 .cta .container {
     display:flex;
-    justify-content: space-between;
+    padding: 50px;
+    justify-content: space-around;
+    background-color:rgb(55, 1, 1);
+    align-items: center;
+}
+
+.cta button {
+    background-color:rgb(55, 1, 1);
+    color: #fff;
+    height: 45px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.cta button:hover {
+    width: 120px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color:rgb(250, 122, 122);
+    transition: 0.3s;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
 }
